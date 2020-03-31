@@ -14,6 +14,8 @@
 		B779EA3820F3D48E004927E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B779EA3620F3D48E004927E9 /* LaunchScreen.storyboard */; };
 		B779EA4320F3D48F004927E9 /* Drawing_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B779EA4220F3D48F004927E9 /* Drawing_AppTests.swift */; };
 		B779EA4E20F3D48F004927E9 /* Drawing_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B779EA4D20F3D48F004927E9 /* Drawing_AppUITests.swift */; };
+		B779EA6220F44BD8004927E9 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = B779EA6120F44BD8004927E9 /* Line.swift */; };
+		B779EA6420F44C1B004927E9 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B779EA6320F44C1B004927E9 /* LineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B779EA4920F3D48F004927E9 /* Drawing AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B779EA4D20F3D48F004927E9 /* Drawing_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_AppUITests.swift; sourceTree = "<group>"; };
 		B779EA4F20F3D48F004927E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B779EA6120F44BD8004927E9 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		B779EA6320F44C1B004927E9 /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		B779EA2C20F3D484004927E9 /* Drawing App */ = {
 			isa = PBXGroup;
 			children = (
+				B779EA6320F44C1B004927E9 /* LineView.swift */,
+				B779EA6120F44BD8004927E9 /* Line.swift */,
 				B779EA2D20F3D484004927E9 /* AppDelegate.swift */,
 				B779EA2F20F3D484004927E9 /* ViewController.swift */,
 				B779EA3120F3D484004927E9 /* Main.storyboard */,
@@ -258,6 +264,8 @@
 			files = (
 				B779EA3020F3D484004927E9 /* ViewController.swift in Sources */,
 				B779EA2E20F3D484004927E9 /* AppDelegate.swift in Sources */,
+				B779EA6420F44C1B004927E9 /* LineView.swift in Sources */,
+				B779EA6220F44BD8004927E9 /* Line.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
